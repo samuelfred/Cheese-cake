@@ -22,7 +22,8 @@ body{
 }
 .step2{
 	
-	background: cyan;
+	background:#E7E7C6 ;
+	color:#E7E7C6;
 }
 .step1Btn {
 	
@@ -32,19 +33,31 @@ body{
 	color: #5F634F;
 	
 }
+.step2Btn{
+	width: 80%;
+	margin: 50px 20px;
+	background:#5F634F ;
+	color: #E7E7C6;
+}
 .processBtns{
 	width: 80%;
 	/*border: 2px solid red;*/
 	margin: auto;
 }
- .processBtn{
+ .processBtn1{
 	width: 350px;
 	margin: 10px 40px;
 	background: #E7E7C6;
 	color: #5F634F;
 	border: 2px solid black;
 }
-
+ .processBtn2{
+	width: 350px;
+	margin: 10px 40px;
+	background:#5F634F;
+	color: #E7E7C6;
+	border: 2px solid black;
+}
 h1{
 	text-align: center;
 	font-size: 40px;
@@ -53,6 +66,9 @@ h1{
 	 color: #5F634F;
 	 margin-top:50px;
 
+}
+.cards2{
+	color: #5F634F;
 }
 .resizeImg{
 	width:50px;
@@ -66,7 +82,10 @@ h1{
 .notice{
 	display: none;
 }
-
+.serve{
+	margin:auto;
+	display:block;
+}
 @media only screen and (max-width:999px) {
 	.notice{
 		display : block;

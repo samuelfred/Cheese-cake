@@ -1,4 +1,6 @@
 console.log('hi');
+$('.step1, .step2, .cake').hide();
+
 
 
 $(document).ready(function(){
@@ -8,6 +10,8 @@ $('h1').click(function(){
 	 // $('body').css('background','red');
 	 $('body').addClass('new');
 	$('h1').hide();
+  $('.step1').show();
+
 });
 
 
@@ -90,6 +94,7 @@ $('#fridgeBtn').click(function(){
   alert("Refrigerated!");
 }
 
+$('.step2').show();
 
  }); //tin moved to fridge
 
@@ -140,6 +145,8 @@ $('#setAside').click(function(){
 
  }); //tin moved to fridge
 
-
+$('.servecake').click(function(){
+  $('.cake').show();
+})
 
 });//end of document ready
